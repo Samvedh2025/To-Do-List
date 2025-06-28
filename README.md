@@ -17,7 +17,7 @@ The Fucntions of this:
 
 8.Congradulations on finishing your To-Do List
 
-DATA ENTER:
+DATA ENTER:,Data Display:
 ```python
 l1=[]
 while(True):
