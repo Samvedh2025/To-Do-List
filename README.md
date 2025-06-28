@@ -1,8 +1,11 @@
 # To-Do-List
 The Fucntions of this:
-#1.Data Enter
-#2.Data display
-#3.Edit Data
+
+1.Data Enter
+
+2.Data display
+
+3.Edit Data
 4.Delete Data
 5.Data Permanent Delete
 6.Deleted data edit
