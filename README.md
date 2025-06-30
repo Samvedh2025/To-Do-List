@@ -17,15 +17,19 @@ The Fucntions of this:
 
 8.Congradulations on finishing your To-Do List
 
-DATA ENTER:,Data Display:
+DATA ENTER:
 ```python
 l1=[]
 while(True):
   l1.append(input("Please Enter a Task: "))
   a=input("Do you want to stop adding tasks? Say Yes or No.(Case Sensitive): ")
   if (a=="Yes"):
-    print("These are your tasks:")
-    for i in range(len(l1)):
-      print(l1[i])
     break
+```
+
+Display Data:
+```python
+print("These are your tasks:")
+for i in range(len(l1)):
+  print(l1[i])
 ```
