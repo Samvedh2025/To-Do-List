@@ -1,23 +1,25 @@
 # To-Do-List
 The Fucntions of this:
 
-1.Data Enter
+1.Welcome message
 
-2.Data display
+2.Data Enter
 
-3.Edit Data
+3.Data display
 
-4.Delete Data
+4.Edit Data
 
-5.Data Permanent Delete
+5.Delete Data
 
-6.Deleted data edit
+6.Deleted Data display
 
-7.Data Retrival
+7.Data Permanent Delete
 
-8.Congradulations on finishing your To-Do List
+8.Deleted data edit
 
-9. Deleted Data display
+9.Data Retrival
+
+10.Congradulations on finishing your To-Do List
 
 DATA ENTER:
 ```python
