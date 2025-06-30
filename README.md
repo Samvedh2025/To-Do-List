@@ -17,10 +17,14 @@ The Fucntions of this:
 
 8.Congradulations on finishing your To-Do List
 
+9. Deleted Data display
+
 DATA ENTER:
 ```python
 l1=[]
 l2=[]
+l3=[]
+dele=[]
 count=len(l1)
 while(True):
   l1.append(input("Please Enter a Task: "))
@@ -47,7 +51,17 @@ l1[b-1]= c
 ```
 Deleting Data:
 ```python
+count2=len(dele)
 b=input("What is the Number of the task you want to delete? Just enter the number: ")
 b=int(b)
+count2=count2+1
+l3.append(count2)
+dele.append(l1[b-1])
 l1.pop(b-1)
+```
+Display Deleted Data:
+```python
+print("These are your deleted tasks:")
+for i in range(len(l3)):
+  print(str(l3[i]) + ".",l1[i])
 ```
