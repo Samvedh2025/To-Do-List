@@ -31,5 +31,5 @@ Display Data:
 ```python
 print("These are your tasks:")
 for i in range(len(l1)):
-  print(i+1,l1[i])
+  print(str(i+1) + ".",l1[i])
 ```
