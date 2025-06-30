@@ -65,3 +65,24 @@ print("These are your deleted tasks:")
 for i in range(len(l3)):
   print(str(l3[i]) + ".",l1[i])
 ```
+Permanent delete:
+```python
+b=input("What is the Number of the deleted task you want to delete? Just enter the number: ")
+b=int(b)
+dele.pop(b-1)
+```
+
+Deleted data editing:
+```python
+b=input("What is the number of the Deleted task you want to edit? Just enter the number: ")
+c=input("What do you want to change it to? please enter here: ")
+b=int(b)
+dele[b-1]= c
+```
+Retriving Data from Deleted Pile/List:
+```python
+b=input("what is the number of the deleted task you want to bring back to your tasks? Just enter the number: ")
+b=int(b)
+l1.append(dele[b-1])
+dele.pop(b-1)
+```
