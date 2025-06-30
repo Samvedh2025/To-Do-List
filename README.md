@@ -33,3 +33,11 @@ print("These are your tasks:")
 for i in range(len(l1)):
   print(str(i+1) + ".",l1[i])
 ```
+
+Edit Data:
+```python
+b=input("What is the number of the task you want to edit? Just enter the number: ")
+c=input("What do you want to change it to? please enter here: ")
+b=int(b)
+l1[b-1]= c
+```
